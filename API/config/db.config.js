@@ -1,10 +1,10 @@
 module.exports = {
-    HOST: "34.101.50.117",
-    USER: "root",
-    PASSWORD: "bbadmin",
-    DB: "userdata",
-    dialect: "mysql",
-    port: 3306,
+    HOST: "",
+    USER: "",
+    PASSWORD: "",
+    DB: "",
+    dialect: "",
+    port: ,
     pool: {
       max: 5,
       min: 0,
