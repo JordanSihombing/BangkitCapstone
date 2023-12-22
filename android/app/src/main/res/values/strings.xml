@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+    <string name="tfe_pe_app_name">BodyBuddy</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: </string>
+    <string name="tfe_pe_tv_fps">Fps: %d</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_classification_value">- %s</string>
+    <string name="tfe_pe_tv_pose_classification">Pose Classification</string>
+    <string name="tfe_pe_tv_tracking">Tracker: </string>
+    <string name="tfe_pe_gpu_error">Movenet MultiPose does not support GPU. Fallback to CPU.</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="accountSuccessCreated">AccountCreated</string>
+    <string name="emailTaken">Emailistaken</string>
+    <string name="username">Username</string>
+    <string name="nameNone">None Name</string>
+    <string name="logout">Log Out</string>
+    <string name="logoutDescription">Are You Sure ?</string>
+    <string name="cancelLogout">Cancel</string>
+    <string name="yes">Yess</string>
+    <string name="SuccessLogout">Success Log Out</string>
+    <string name="register_button">Register</string>
+    <string name="anyaccount">Do you Have Any Account ?</string>
+    <string name="createaccount">Want Create Account ?</string>
+    <string name="failedcreadaccount">Failed TO Create Account</string>
+    <string name="filldata">Fill Data !</string>
+    <string name="passwordLess">Al Least 8 Character Password</string>
+    <string name="createAccount">Create Account</string>
+    <string name="createaccount2">Create Account</string>
+    <string name="passwordNotMatch">Password Not Macth</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="passwordConfirm2" tools:ignore="ExtraTranslation">Empty Confirm Password</string>
+    <string name="halah" tools:ignore="ExtraTranslation">Empty Password</string>
+    <string name="invalidLogin" tools:ignore="ExtraTranslation">Enter Data Account Correctly</string>
+    <string-array name="tfe_pe_models_array">
+        <item>Movenet Lightning</item>
+        <item>Movenet Thunder</item>
+        <item>Movenet MultiPose</item>
+        <item>Posenet</item>
+    </string-array>
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_tracker_array">
+        <item>Off</item>
+        <item>BoundingBox</item>
+        <item>Keypoint</item>
+    </string-array>
+</resources>
